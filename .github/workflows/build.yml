@@ -16,7 +16,7 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/eka-max/android_kernel_xiaomi_mt6768-s
-          kernel-dir: tree
+          kernel-dir: MTK
           kernel-branch: lineage-20
           config: cas_defconfig
           arch: arm64
